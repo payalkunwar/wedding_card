@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding Invitation</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fff1f2, #fde2e4);
+      font-family: 'Playfair Display', serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://t3.ftcdn.net/jpg/08/36/34/90/360_F_836349001_rOZQ2Qd3LjuJTdNJduvvsNkJ01ngEqVB.jpg');
+      background-size: cover;
+    }
+
+    .invitation-card {
+      background: #fff;
+      max-width: 600px;
+      padding: 40px;
+      border-radius: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      border: 3px double #e91e63;
+      text-align: center;
+      position: relative;
+    }
+
+    .flowers-top, .flowers-bottom {
+      font-size: 24px;
+      color: #e91e63;
+      margin: 10px 0;
+    }
+
+    .invitation-card h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3em;
+      color: #c2185b;
+      margin-bottom: 10px;
+    }
+
+    .invitation-card h2 {
+      font-size: 1.5em;
+      color: #6a1b9a;
+      margin-top: 5px;
+    }
+
+    .names {
+      font-size: 2.5em;
+      font-family: 'Great Vibes', cursive;
+      color: #d81b60;
+      margin: 20px 0 10px;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #777;
+      margin-bottom: 25px;
+      font-size: 1.1em;
+    }
+
+    .date, .venue {
+      font-size: 1.2em;
+      color: #444;
+      margin: 12px 0;
+    }
+
+    .divider {
+      margin: 25px auto;
+      width: 80%;
+      height: 2px;
+      background: #f48fb1;
+    }
+
+    .rsvp {
+      font-size: 1em;
+      color: #555;
+      margin-top: 30px;
+    }
+
+    .rsvp b {
+      color: #c2185b;
+    }
+
+    @media (max-width: 640px) {
+      .invitation-card {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .names {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="invitation-card">
+    <div class="flowers-top">💐🌸🌷💖🌺</div>
+    <h1>You Are Cordially Invited</h1>
+    <h2>to celebrate the wedding of</h2>
+    <div class="names">Aarav ❤️ Meera</div>
+
+    <div class="quote">"Two souls, one heart, one beautiful journey"</div>
+
+    <div class="divider"></div>
+
+    <div class="date">📅 Date: 25th December 2025</div>
+    <div class="venue">📍 Venue: Rosewood Banquet Hall,<br>123 Bloom Street, Jaipur</div>
+
+    <div class="divider"></div>
+
+    <div class="rsvp">
+      Kindly RSVP by 10th December 2025<br/>
+      Contact: <b>+91-9876543210</b><br/>
+      Email: <b>wedding@aaravmeera.com</b>
+    </div>
+
+    <div class="flowers-bottom">💖🌼🌹🎉🌸</div>
+  </div>
+</body>
+</html>
